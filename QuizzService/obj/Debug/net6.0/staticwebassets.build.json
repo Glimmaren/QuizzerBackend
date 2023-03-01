@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EI7xKZXlZxGfpUgpl5WpmfUYOsjQDP5qlbFYGZW3uTA=",
+  "Source": "QuizzService",
+  "BasePath": "_content/QuizzService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

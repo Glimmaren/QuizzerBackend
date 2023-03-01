@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6a6155dc-ae12-4b5a-bfb2-fbc1768913d8": {
+      "ProjectGuid": "6a6155dc-ae12-4b5a-bfb2-fbc1768913d8",
+      "DisplayName": "PersonSevice",
+      "ColorIndex": 0
+    },
+    "31ee26fc-ae21-4cb1-9f94-47c2dc2917f1": {
+      "ProjectGuid": "31ee26fc-ae21-4cb1-9f94-47c2dc2917f1",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,0 +1,66 @@
+version: '3.4'
+
+networks:
+  backend:
+
+services:
+
+  persondb:
+    container_name: person-db
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+        - 8081:1443
+    environment:
+        - ACCEPT_EULA=Y
+        - SA_PASSWORD=password@1234#
+    networks:
+        - backend
+
+
+  personsevice:
+    container_name: person-service
+    image: ${DOCKER_REGISTRY-}personsevice
+    build:
+      context: .
+      dockerfile: PersonSevice/Dockerfile
+    environment:
+        - DB_HOST=persondb
+        - DB_NAME=person
+        - DB_SA_PASSWORD=password@1234#
+    networks:
+     - backend
+
+  quizzservice:
+    container_name: quizz-service
+    image: ${DOCKER_REGISTRY-}quizzservice
+    build:
+      context: .
+      dockerfile: QuizzService/Dockerfile
+
+    networks:
+     - backend
+
+
+  ocelotgateway:
+    container_name: quizzer-api-gateway
+    image: ${DOCKER_REGISTRY-}ccelotgateway
+    build:
+      context: .
+      dockerfile: OcelotGateway/Dockerfile
+    ports:
+        - 8090:80
+    networks:
+        - backend
+
+
+  quizzerserver:
+    container_name: quizzer-server
+    image: ${DOCKER_REGISTRY-}quizzerserver
+    build:
+      context: .
+      dockerfile: QuizzerServer/Dockerfile
+    ports:
+        - 5000:5000
+
+    networks:
+     - backend

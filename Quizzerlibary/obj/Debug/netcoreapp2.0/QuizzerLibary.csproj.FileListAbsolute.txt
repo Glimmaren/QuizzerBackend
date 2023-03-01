@@ -1,0 +1,5 @@
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\netcoreapp2.0\QuizzerLibary.csproj.AssemblyReference.cache
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\netcoreapp2.0\QuizzerLibary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\netcoreapp2.0\QuizzerLibary.AssemblyInfoInputs.cache
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\netcoreapp2.0\QuizzerLibary.AssemblyInfo.cs
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\netcoreapp2.0\QuizzerLibary.csproj.CoreCompileInputs.cache

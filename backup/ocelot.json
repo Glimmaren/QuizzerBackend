@@ -1,0 +1,23 @@
+{
+  "Routes": [
+
+
+    // Questions
+    {
+      "UpstreamPathTemplate": "/api/Question",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "quizzservice",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Question"
+    }
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:800"
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\bin\Debug\net6.0\QuizzerLibary.deps.json
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\bin\Debug\net6.0\QuizzerLibary.dll
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\bin\Debug\net6.0\QuizzerLibary.pdb
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\QuizzerLibary.csproj.AssemblyReference.cache
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\QuizzerLibary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\QuizzerLibary.AssemblyInfoInputs.cache
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\QuizzerLibary.AssemblyInfo.cs
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\QuizzerLibary.csproj.CoreCompileInputs.cache
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\QuizzerLibary.dll
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\refint\QuizzerLibary.dll
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\QuizzerLibary.pdb
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzerLibary\obj\Debug\net6.0\ref\QuizzerLibary.dll

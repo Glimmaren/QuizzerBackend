@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "WHAo9KQU2RSUY7AtqMrszRCD6w5EHTd7r72TyTYqq+0=",
+  "Source": "QuizzerServer",
+  "BasePath": "_content/QuizzerServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\glimm\\OneDrive\\Dokument\\ITHS\\Projects\\QuizzErBackend\\QuizzService\\QuizzService.csproj",
+      "Version": 2,
+      "Source": "QuizzService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s+hs8iXMqsPfH39uz6p8IOnL9cFOaFFrVZ9h24yR5kbwFRnZH1rA9KbCtAGpCD434aaRAg6ChfNPAUfzUUscxA==",
+  "dgSpecHash": "sx+N1krShfqT50IXBwn785RM14aMnVEfadlzk30AoJh2FaxHAKxpsH3HEIHhSboP33z6fSjnPEYg49pkRVwuzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\glimm\\OneDrive\\Dokument\\ITHS\\Projects\\QuizzErBackend\\QuizzerServer\\QuizzerServer.csproj",
   "expectedPackageFiles": [
@@ -101,6 +101,7 @@
     "C:\\Users\\glimm\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\glimm\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\glimm\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\glimm\\.nuget\\packages\\websocketsharp\\1.0.3-rc9\\websocketsharp.1.0.3-rc9.nupkg.sha512",
     "C:\\Users\\glimm\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
   ],
   "logs": [
@@ -140,6 +141,16 @@
       "warningLevel": 1,
       "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebSocketSharp 1.0.3-rc9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebSocketSharp",
       "targetGraphs": [
         "net6.0"
       ]

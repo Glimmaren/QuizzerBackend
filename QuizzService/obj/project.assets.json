@@ -1660,6 +1660,15 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "WebSocketSharp/1.0.3-rc9": {
+        "type": "package",
+        "compile": {
+          "lib/websocket-sharp.dll": {}
+        },
+        "runtime": {
+          "lib/websocket-sharp.dll": {}
+        }
+      },
       "QuizzerLibary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -5707,6 +5716,19 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "WebSocketSharp/1.0.3-rc9": {
+      "sha512": "+HHS2VBt9cQNtfmdXY/XcKejYYABiSIXbKkeZwK03ccyQiLpYVcuMY2g+E2sNxuAWPgDAclRRBMRLAHr9gnx6Q==",
+      "type": "package",
+      "path": "websocketsharp/1.0.3-rc9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/websocket-sharp.dll",
+        "lib/websocket-sharp.xml",
+        "websocketsharp.1.0.3-rc9.nupkg.sha512",
+        "websocketsharp.nuspec"
+      ]
+    },
     "QuizzerLibary/1.0.0": {
       "type": "project",
       "path": "../QuizzerLibary/QuizzerLibary.csproj",
@@ -5718,7 +5740,8 @@
       "Microsoft.AspNet.WebApi.Client >= 5.2.9",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
       "QuizzerLibary >= 1.0.0",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "WebSocketSharp >= 1.0.3-rc9"
     ]
   },
   "packageFolders": {
@@ -5781,6 +5804,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
+          },
+          "WebSocketSharp": {
+            "target": "Package",
+            "version": "[1.0.3-rc9, )"
           }
         },
         "imports": [
@@ -5805,5 +5832,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebSocketSharp 1.0.3-rc9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebSocketSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

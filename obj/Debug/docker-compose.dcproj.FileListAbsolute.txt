@@ -52,6 +52,4 @@ C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\bin\Debug\QuizzerS
 C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\bin\Debug\QuizzerServer.runtimeconfig.json
 C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\bin\Debug\QuizzerServer.exe
 C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\bin\Debug\QuizzerServer.pdb
-C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\bin\Debug\WebSokcetLibary.dll
 C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\bin\Debug\websocket-sharp.dll
-C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\bin\Debug\WebSokcetLibary.pdb

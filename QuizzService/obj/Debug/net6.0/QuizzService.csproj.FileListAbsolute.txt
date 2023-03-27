@@ -35,3 +35,4 @@ C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzService\obj\D
 C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzService\obj\Debug\net6.0\refint\QuizzService.dll
 C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzService\bin\Debug\net6.0\QuizzerLibary.dll
 C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzService\bin\Debug\net6.0\QuizzerLibary.pdb
+C:\Users\glimm\OneDrive\Dokument\ITHS\Projects\QuizzErBackend\QuizzService\bin\Debug\net6.0\websocket-sharp.dll

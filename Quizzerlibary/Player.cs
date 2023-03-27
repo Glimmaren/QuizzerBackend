@@ -10,15 +10,9 @@ namespace QuizzerLibary
     {
         public string Id { get; set; }
         public string Name { get; set; }
-        public int CurrentPoints { get; set; }
-        public bool IsWinner { get; set; }
-        public bool isHost = true;
+        public int Score { get; set; }
+        public bool LastAnswerCorrect { get; set; }
+        public bool isWinner { get; set; }
 
-        public Player(string id, string name, int currentPoints)
-        {
-            Id = id;
-            Name = name;
-            CurrentPoints = currentPoints;
-        }
     }
 }

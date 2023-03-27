@@ -8,7 +8,7 @@ namespace QuizzerLibary
 {
     public class NewCurrentQuestion
     {
-        public string type { get; set; }
+        public string Type { get; set; }
         public CurrentQuestion question { get; set; }
     }
 }

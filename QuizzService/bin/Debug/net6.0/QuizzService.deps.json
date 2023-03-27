@@ -11,7 +11,8 @@
           "Microsoft.AspNet.WebApi.Client": "5.2.9",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
           "QuizzerLibary": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "WebSocketSharp": "1.0.3-rc9"
         },
         "runtime": {
           "QuizzService.dll": {}
@@ -910,6 +911,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "WebSocketSharp/1.0.3-rc9": {
+        "runtime": {
+          "lib/websocket-sharp.dll": {
+            "assemblyVersion": "1.0.2.36589",
+            "fileVersion": "1.0.2.36589"
+          }
+        }
+      },
       "QuizzerLibary/1.0.0": {
         "runtime": {
           "QuizzerLibary.dll": {}
@@ -1573,6 +1582,13 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "WebSocketSharp/1.0.3-rc9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+HHS2VBt9cQNtfmdXY/XcKejYYABiSIXbKkeZwK03ccyQiLpYVcuMY2g+E2sNxuAWPgDAclRRBMRLAHr9gnx6Q==",
+      "path": "websocketsharp/1.0.3-rc9",
+      "hashPath": "websocketsharp.1.0.3-rc9.nupkg.sha512"
     },
     "QuizzerLibary/1.0.0": {
       "type": "project",

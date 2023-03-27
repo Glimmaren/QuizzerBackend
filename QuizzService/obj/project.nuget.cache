@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bU+7c7HkZqGxjZKARA0sRVc705wxhSlkGJWZ38OxefatHntZ+KAOVSf42EVMmAlZ1nLPzpX8HyDbA6eHikEYaw==",
+  "dgSpecHash": "VtBw1UdIURIy0YAcLi6cExgQBwBJt4+n0daeAu9gg+RyYej/kAN+iEJEvcrIBjwP9QMGkEqNwITyZam0mq+zjA==",
   "success": true,
   "projectFilePath": "C:\\Users\\glimm\\OneDrive\\Dokument\\ITHS\\Projects\\QuizzErBackend\\QuizzService\\QuizzService.csproj",
   "expectedPackageFiles": [
@@ -96,7 +96,19 @@
     "C:\\Users\\glimm\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\glimm\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\glimm\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\glimm\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\glimm\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\glimm\\.nuget\\packages\\websocketsharp\\1.0.3-rc9\\websocketsharp.1.0.3-rc9.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebSocketSharp 1.0.3-rc9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebSocketSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

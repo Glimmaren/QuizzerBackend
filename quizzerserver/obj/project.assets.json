@@ -1717,6 +1717,15 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "WebSocketSharp/1.0.3-rc9": {
+        "type": "package",
+        "compile": {
+          "lib/websocket-sharp.dll": {}
+        },
+        "runtime": {
+          "lib/websocket-sharp.dll": {}
+        }
+      },
       "WebSocketSharp-netstandard/1.0.1": {
         "type": "package",
         "compile": {
@@ -1747,7 +1756,8 @@
           "Microsoft.AspNet.WebApi.Client": "5.2.9",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
           "QuizzerLibary": "1.0.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "WebSocketSharp": "1.0.3-rc9"
         },
         "compile": {
           "bin/placeholder/QuizzService.dll": {}
@@ -5866,6 +5876,19 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "WebSocketSharp/1.0.3-rc9": {
+      "sha512": "+HHS2VBt9cQNtfmdXY/XcKejYYABiSIXbKkeZwK03ccyQiLpYVcuMY2g+E2sNxuAWPgDAclRRBMRLAHr9gnx6Q==",
+      "type": "package",
+      "path": "websocketsharp/1.0.3-rc9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/websocket-sharp.dll",
+        "lib/websocket-sharp.xml",
+        "websocketsharp.1.0.3-rc9.nupkg.sha512",
+        "websocketsharp.nuspec"
+      ]
+    },
     "WebSocketSharp-netstandard/1.0.1": {
       "sha512": "knoinAv31vbdxXdypnzN2MPX5hyntVLWceq6OdWRXkr9zzqp/RWbxSuLFGbkW8De1061URgNAN43BUTlgMx1CA==",
       "type": "package",
@@ -6037,6 +6060,16 @@
       "warningLevel": 1,
       "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "Owin",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WebSocketSharp 1.0.3-rc9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WebSocketSharp",
       "targetGraphs": [
         "net6.0"
       ]

@@ -47,8 +47,8 @@ namespace QuizzerServer.Communication
 
                 string messageType = message.GetProperty("Type").GetString();
                 
-                if (buffer != null)
-                {
+                //if (buffer != null)
+                //{
                     if(messageType == "Close")
                     {
                         CloseService();
@@ -58,7 +58,7 @@ namespace QuizzerServer.Communication
                         Send(buffer);
                     }
                     
-                } 
+                //} 
             }
         }
 

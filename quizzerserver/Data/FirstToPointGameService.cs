@@ -39,17 +39,13 @@ namespace QuizzerServer.Data
 
             switch (messageType)
             {
-                //Temp
-                //case "Close":
-                //    CloseConnection();
-                //    break;
+
                 case "StartFirstToPoint":
                     return await StartForstToPointGame(mess);
                 case "GetNewQuestion":
                     return GetQuestion();
                 case "CheckAnswers":
                     return CheckAnswer(mess);
-
             }
 
             return null;

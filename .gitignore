@@ -1,0 +1,82 @@
+# Ignore Visual Studio files and folders
+.vs/
+.vscode/
+*.suo
+*.user
+*.userprefs
+.vspscc
+
+# Ignore build artifacts
+[Bb]in/
+[Oo]bj/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore Resharper files
+_ReSharper*/
+
+# Ignore Rider files
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Windows image file caches and folders
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+$Recycle.Bin/
+
+# Ignore Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Ignore logs and debugging files
+*.log
+*.log.*
+*.~ws
+*.dbmdl
+*.dbproj
+*.sln.docstates
+*.bak
+*.cache
+*.cloudberry
+*.dotCover
+*.dotsettings
+*.opensdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio profiler files
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.ipch/
